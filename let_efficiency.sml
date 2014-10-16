@@ -1,5 +1,5 @@
 (*Programming Languages, Dan Grossman *)
-(*Badly named: evaluates to 0 on empty list *)
+(*Badly named: evaluates to 0 on emptylist *)
 
 fun bad_max (xs : int list) =
     if null xs

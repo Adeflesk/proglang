@@ -6,7 +6,7 @@ fun sum_list(xs : int list) =
 
 fun list_product(xs : int list) =
   if null xs
-  then 1
+  then 
   else hd xs * list_product(tl xs)
 
 fun countdown(x : int) =
@@ -19,6 +19,7 @@ fun append (xs : int list, ys : int list) =
     then ys 
     else (hd xs) :: append((tl xs),ys)
 (*(int list) * (int list) -> int list*)
+                          
 
 (* functions over pairs of lists *)
 
